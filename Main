@@ -1,1 +1,5 @@
---parhelionv2 come soon!
+if game.PlaceId == 4913581664 then
+loadtring(game:HttpGet('https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/card%20ride.lua?token=GHSAT0AAAAAAB3YCIR2OKZRZ7SQFA4MS4ZSY4FNZFA'))()
+return
+end
+game.Players.LocalPlayer:kick("Unsupported Game")
