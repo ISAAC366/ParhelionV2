@@ -1,6 +1,8 @@
-print("Loading...")
-if game.PlaceId == 4913581664 then
-loadtring(game:HttpGet('https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/card%20ride.lua?token=GHSAT0AAAAAAB3YCIR2OKZRZ7SQFA4MS4ZSY4FNZFA'))()
-return
+if PlaceId == 4913581664 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/CartRide"))()
+    return
+elseif PlaceId == 3956818381 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/NL"))()
+    return
 end
-game.Players.LocalPlayer:kick("Unsupported Game")
+game.Players.LocalPlayer:kick("Use the script in the correct game.")
