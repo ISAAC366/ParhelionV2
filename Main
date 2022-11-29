@@ -1,8 +1,12 @@
-if PlaceId == 4913581664 then
+if game.PlaceId == 4913581664 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/CartRide"))()
     return
-elseif PlaceId == 3956818381 then
+elseif game.PlaceId == 3956818381 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/NL"))()
+    return
+elseif game.PlaceId == 5275822877 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/NoobCartS"))()
     return
 end
 game.Players.LocalPlayer:kick("Use the script in the correct game.")
+
