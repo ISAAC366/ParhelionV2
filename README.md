@@ -1,2 +1,7 @@
-Well the ppl cant see this bc here is the source code of the script
-idk why i write this
+Games:
+Card ride into giga noob
+card ride into rdite
+Legends of Speed
+Ninja Legends : Update Coming soon!
+
+:)
