@@ -8,8 +8,10 @@ elseif game.PlaceId == 5275822877 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/NoobCartS"))()
     return
 elseif game.PlaceId == 3101667897 or 3276265788 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/Leends%20of%20speed"))()
-return
-
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/Leends%20of%20speed"))()
+    return
+elseif game.PlaceId == 142823291 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/Da%20hood"))()
+    return
 end
-game.Players.LocalPlayer:kick("Use the script in the correct games")
+game.Players.LocalPlayer:kick("imagine")
