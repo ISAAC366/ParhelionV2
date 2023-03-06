@@ -7,7 +7,7 @@ elseif game.PlaceId == 3956818381 then
 elseif game.PlaceId == 5275822877 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/NoobCartS"))()
     return
-elseif game.PlaceId == 3101667897 or 3276265788 then
+elseif game.PlaceId == 3101667897 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/Leends%20of%20speed"))()
     return
 elseif game.PlaceId == 2788229376 then
