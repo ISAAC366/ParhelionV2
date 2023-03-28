@@ -1,3 +1,6 @@
+-- main script: loadstring(game:HttpGet("https://github.com/ISAAC366/ParhelionV2/edit/main/Main"))()
+
+getgenv().key = "nil" --opcional
 if game.PlaceId == 4913581664 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/CartRide"))()
     return
@@ -12,6 +15,9 @@ elseif game.PlaceId == 3101667897 then
     return
 elseif game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/Da%20hood"))()
+    return
+elseif game.PlaceId == 11975808917 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/evancrashserver"))() --only this game needs the key cause of reassons
     return
 end
 game.Players.LocalPlayer:kick("imagine")
