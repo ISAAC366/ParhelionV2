@@ -22,7 +22,7 @@ elseif game.PlaceId == 11975808917 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/evancrashserver"))() --only this game needs the key cause of some reassons
      return
 elseif game.PlaceId == 142823291 then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/MM2LAGSERVER"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/ISAAC366/ParhelionV2/main/MM2ISAAC36SCRIPT"))()
      return
 end
 game.Players.LocalPlayer:kick("imagine")
